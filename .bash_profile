@@ -14,6 +14,9 @@ export SPARK_HOME="${SPARK_MAIN}/${SPARK_FOLDER}"
 export PYTHON_VERSION="python3.7"
 export PYTHON_HOME="/usr/local/lib/${PYTHON_VERSION}"
 export PYTHONPATH="${PYTHON_HOME}/site-packages"
+################################################## JUMP
+export JUMP_HOME="/jmp"
+export JUMP_SECRETS="${JUMP_HOME}/sct"
 
 
 
