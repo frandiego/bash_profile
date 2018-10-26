@@ -18,5 +18,3 @@ export PYTHONPATH="${PYTHON_HOME}/site-packages"
 export JUMP_HOME="/jmp"
 export JUMP_SECRETS="${JUMP_HOME}/sct"
 
-
-
