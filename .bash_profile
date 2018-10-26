@@ -17,4 +17,6 @@ export PYTHONPATH="${PYTHON_HOME}/site-packages"
 ################################################## JUMP
 export JUMP_HOME="/jmp"
 export JUMP_SECRETS="${JUMP_HOME}/sct"
+################################################## AWS
+export AWS_CREDENTIAL_PROFILES_FILE="${JUMP_SECRETS}/credentials.ini"
 
