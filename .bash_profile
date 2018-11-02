@@ -2,7 +2,6 @@
 ################################################## ALIAS
 alias python='python3'
 alias pip='pip3'
-
 ################################################## MAIN 
 export OPT_HOME="/opt"
 ################################################## SPARK
@@ -11,9 +10,16 @@ export SPARK_FOLDER="spark-${SPARK_VERSION}-bin-hadoop2.7"
 export SPARK_MAIN="${OPT_HOME}/spark"
 export SPARK_HOME="${SPARK_MAIN}/${SPARK_FOLDER}"
 ################################################## PYTHON
-export PYTHON_VERSION="python3.7"
+export PYTHON_2='python2.7'
+export PYTHON_3='python3.7'
+export PYTHON_VERSION="${PYTHON_3}"
+export PYTHON_2_HOME="/usr/local/lib/${PYTHON_2}"
+export PYTHON_3_HOME="/usr/local/lib/${PYTHON_3}"
 export PYTHON_HOME="/usr/local/lib/${PYTHON_VERSION}"
 export PYTHONPATH="${PYTHON_HOME}/site-packages"
+################################################## PYSPARK
+export PYSPARK_PYTHON="${PYTHON_2_HOME}"
+export PYSPARK_DRIVER_PYTHON=jupyter
 ################################################## JUMP
 export JUMP_HOME="/jmp"
 export JUMP_SECRETS="${JUMP_HOME}/sct"
